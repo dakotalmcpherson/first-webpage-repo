@@ -13,4 +13,51 @@ body {
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    background-color: lightblue;
 }
+
+.input-box {
+    padding: 3rem;
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 2%;
+    text-align: center;
+}
+
+.form-input {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.form-input input {
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+}
+
+.form-input label {
+    position: absolute;
+    left: 0;
+}
+
+.form-input input:focus, .form-input input:valid {
+    outline: none;
+}
+
+button {
+    color: white;
+    background-color:cornflowerblue;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+
